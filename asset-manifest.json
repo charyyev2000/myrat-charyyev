@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/myrat-charyyev/static/css/main.f84b9605.chunk.css",
+    "main.js": "/myrat-charyyev/static/js/main.f37bff17.chunk.js",
+    "main.js.map": "/myrat-charyyev/static/js/main.f37bff17.chunk.js.map",
+    "runtime-main.js": "/myrat-charyyev/static/js/runtime-main.a987952c.js",
+    "runtime-main.js.map": "/myrat-charyyev/static/js/runtime-main.a987952c.js.map",
+    "static/js/2.8dcfcc78.chunk.js": "/myrat-charyyev/static/js/2.8dcfcc78.chunk.js",
+    "static/js/2.8dcfcc78.chunk.js.map": "/myrat-charyyev/static/js/2.8dcfcc78.chunk.js.map",
+    "index.html": "/myrat-charyyev/index.html",
+    "static/css/main.f84b9605.chunk.css.map": "/myrat-charyyev/static/css/main.f84b9605.chunk.css.map",
+    "static/js/2.8dcfcc78.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/2.8dcfcc78.chunk.js.LICENSE.txt",
+    "static/media/left-arrow.53878c51.svg": "/myrat-charyyev/static/media/left-arrow.53878c51.svg",
+    "static/media/right-arrow.8b8fb639.svg": "/myrat-charyyev/static/media/right-arrow.8b8fb639.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a987952c.js",
+    "static/js/2.8dcfcc78.chunk.js",
+    "static/css/main.f84b9605.chunk.css",
+    "static/js/main.f37bff17.chunk.js"
+  ]
+}
