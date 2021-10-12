@@ -85,16 +85,14 @@ const Home = ({ handleScroll, offsetY }) => {
               ignoreCancelEvents={false}
               spyThrottle={100}
               // className="home_btn"
-
-              
             >
-            <motion.div className="home_btn"
-              initial={{ y: -100, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 2, duration: 1, type: "tween" }}
-
->
-              Learn More
+              <motion.div
+                className="home_btn"
+                initial={{ y: -100, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 2, duration: 1, type: "tween" }}
+              >
+                Learn More
               </motion.div>
             </Link>
           </div>
