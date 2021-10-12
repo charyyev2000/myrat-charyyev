@@ -94,5 +94,18 @@ export const ProjectsData = [
     langOne: [75.3, "#2b7489", "TypeScript"],
     langTwo: [16.9, "#e34c26", "HTML"],
     langThree: [7.8, "#563d7c", "CSS"]
+  },
+  {
+    id: 8,
+    header: "Shop-Online-Layout",
+    content: "HTML",
+    contentTwo: "CSS",
+    contentThree: "JavaScript",
+    comment: "Custom website design, implemented in HTML, CSS, JavaScript.",
+    codePath: "https://github.com/charyyev2000/Online-Shop-Layout",
+    livePath: "https://charyyev2000.github.io/Online-Shop-Layout/",
+    langOne: [51.5, "#563d7c", "CSS"],
+    langTwo: [30.6, "#e34c26", "HTML"],
+    langThree: [17.9, "#f1e05a", "JavaScript"]
   }
 ];

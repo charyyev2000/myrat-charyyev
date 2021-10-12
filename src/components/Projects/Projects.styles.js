@@ -18,7 +18,7 @@ export const ProjectsContainer = styled.section`
 
 export const Title = styled(motion.div)`
   position: sticky;
-  position: absolute;
+  // position: absolute;
   top: 0;
   left: 0;
   // width: 200%;

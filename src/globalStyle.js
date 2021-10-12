@@ -24,6 +24,8 @@ body {
     max-width: 100vw;
     font-family: "Montserrat", sans-serif;
     transition: background .7s ease;
+    overflow-x: hidden;
+
 }
 
 .center {
