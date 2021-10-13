@@ -13,16 +13,17 @@ export const ProjectsData = [
   },
   {
     id: 2,
-    header: "Expanding Cards",
-    content: "HTML",
-    contentTwo: "CSS",
-    contentThree: "JavaScript",
-    comment: "Expanding cards made using unsplash.com API",
-    codePath: "https://github.com/charyyev2000/Personal-Project-2",
-    livePath: "https://charyyev2000.github.io/Personal-Project-2/",
-    langOne: [55.8, "#e34c26", "HTML"],
-    langTwo: [34.7, "#563d7c", "CSS"],
-    langThree: [9.5, "#f1e05a", "JavaScript"]
+    header: "Weather-app",
+    content: "React",
+    contentTwo: "Redux",
+    contentThree: "Dark Sky API",
+    contentFour: "Bootstrap",
+    comment:
+      "A simple weather application that displays the current weather, daily forecasts, and hourly forecasts based on geolocation or search. ",
+    codePath: "https://github.com/charyyev2000/barometric-weather-app",
+    livePath: "https://barometric.io/",
+    langOne: [97.8, "#f1e05a", "JavaScript"],
+    langTwo: [2.2, "#e34c26", "HTML"]
   },
   {
     id: 3,
