@@ -57,9 +57,9 @@ const Project = ({ id, expander }) => {
         // exit={{ opacity: 0, transition: { duration: 0.15 } }}
         // style={{ pointerEvents: "auto" }}
       >
-        {/* <div className="back-btn" onClick={expander}>
+        <div className="back-btn" onClick={expander}>
           <GrClose />
-        </div> */}
+        </div>
         <LeftSection>
           <Title>{data.header}</Title>
           <div className="stacks">

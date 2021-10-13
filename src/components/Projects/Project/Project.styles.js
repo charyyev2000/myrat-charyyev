@@ -26,32 +26,36 @@ export const ProjectContainer = styled(motion.div)`
   right: 0;
   z-index: 1;
   overflow: hidden;
-
+  background: ${({ theme }) => theme.body};
+  position: relative;
+  padding: 10px;
   width: clamp(300px, 70vw, 1100px);
   height: clamp(300px, 70vh, 600px);
   // background: ${({ theme }) => theme.effect};
   color: ${({ theme }) => theme.projectText};
   border-radius: 20px;
   display: flex;
-  overflow: hidden;
+  // overflow: hidden;
 
   @media screen and (max-width: 700px) {
     display: flex;
     flex-direction: column;
   }
 
-  .test {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    display: block;
-  }
+  // .test {
+  //   width: 100%;
+  //   height: 100%;
+  //   position: relative;
+  //   display: block;
+  // }
 
   .back-btn {
     position: absolute;
-    top: -30px;
-    right: -30px;
-    font-size: 3rem;
+    // top: -30px;
+    // right: -30px;
+    top: 0;
+    right: 0;
+    font-size: clamp(1rem, 3vw, 2rem);
     padding: 10px;
     display: flex;
     align-items: center;
@@ -59,6 +63,7 @@ export const ProjectContainer = styled(motion.div)`
     border-radius: 50%;
     cursor: pointer;
     background: #fff;
+    z-index: 2;
   }
 `;
 
@@ -106,7 +111,7 @@ export const LeftSection = styled(motion.div)`
     h3 {
       font-size: clamp(15px, 2vw, 25px);
       // margin-bottom: 10px;
-      font-weight: 600;
+      font-weight: 700;
       display: inline-flex;
       pointer-events: none;
     }
@@ -154,6 +159,7 @@ export const LeftSection = styled(motion.div)`
     // color: #fff;
     padding: 8px 14px;
     border-radius: 10px;
+    box-shadow: 0 0px 20px black;
   }
 
   .languages {
@@ -207,7 +213,13 @@ export const RightSection = styled.div`
   overflow: hidden;
   width: 100%;
   height: 100%;
-  // border-radius: 0px 10px 10px 0px;
+  box-shadow: 0 0px 10px black;
+  border-radius: 10px;
+
+  // transition: box-shadow 0.3s ease;
+  // &:hover {
+  //   box-shadow: 0 0px 10px black;
+  // }
 
   img {
     width: 100%;

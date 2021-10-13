@@ -84,6 +84,8 @@ export const Container = styled(motion.div)`
   transition: background 0.3s;
   // transition: color 0.3s;
 
+  padding: 10px;
+
   @media screen and (max-width: 700px) {
     display: flex;
     flex-direction: column;
@@ -214,6 +216,8 @@ export const RightSection = styled.div`
   overflow: hidden;
   width: 100%;
   height: 100%;
+  box-shadow: 0 0px 10px black;
+  border-radius: 10px;
 
   img {
     width: 100%;
