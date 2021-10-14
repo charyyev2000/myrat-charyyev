@@ -14,7 +14,7 @@ const NavIcon = css`
   // margin: 5px;
 
   &:hover {
-    scale: 1.2;
+    scale: 1.1;
   }
 `;
 
@@ -72,7 +72,7 @@ export const NavbarContainer = styled(motion.aside)`
   .active {
     color: ${({ theme }) => theme.effect};
     transition: all 0.4s;
-    scale: 1.2;
+    scale: 1.1;
   }
 
   hr {

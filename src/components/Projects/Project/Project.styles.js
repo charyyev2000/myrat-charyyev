@@ -6,7 +6,7 @@ export const Backdrop = styled(motion.div)`
   inset: 0;
   background: #000000e1;
   margin: 0 auto;
-  z-index: 99;
+  z-index: 6;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +25,6 @@ export const ProjectContainer = styled(motion.div)`
   left: 0;
   right: 0;
   z-index: 1;
-  overflow: hidden;
   background: ${({ theme }) => theme.body};
   position: relative;
   padding: 10px;
@@ -51,10 +50,10 @@ export const ProjectContainer = styled(motion.div)`
 
   .back-btn {
     position: absolute;
-    // top: -30px;
-    // right: -30px;
-    top: 0;
-    right: 0;
+    top: -30px;
+    right: -30px;
+    // top: 0;
+    // right: 0;
     font-size: clamp(1rem, 3vw, 2rem);
     padding: 10px;
     display: flex;
@@ -63,7 +62,8 @@ export const ProjectContainer = styled(motion.div)`
     border-radius: 50%;
     cursor: pointer;
     background: #fff;
-    z-index: 2;
+    z-index: 70;
+    box-shadow: 0 0px 10px black;
   }
 `;
 
@@ -73,7 +73,7 @@ export const LeftSection = styled(motion.div)`
   // border-right: 1px solid black;
   // border-radius: 10px 0 0 10px;
   position: relative;
-  padding: 10px 10px;
+  padding-right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -133,7 +133,7 @@ export const LeftSection = styled(motion.div)`
 
   .buttons {
     display: flex;
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
     justify-content: space-around;
 
     @media screen and (max-width: 400px) {
@@ -214,7 +214,7 @@ export const RightSection = styled.div`
   width: 100%;
   height: 100%;
   box-shadow: 0 0px 10px black;
-  border-radius: 10px;
+  border-radius: 15px;
 
   // transition: box-shadow 0.3s ease;
   // &:hover {

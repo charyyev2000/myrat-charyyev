@@ -6,10 +6,9 @@ import { Toggle } from "./Toggle";
 const Navbar = ({ theme, toggleTheme }) => {
   return (
     <NavbarContainer
-        //     initial={{ x: "-50vw", opacity: 0 }}
-        // animate={{ x: 0, opacity: 0.3 }}
-        // transition={{ delay: 0.5, duration: 3, type: "tween" }}
-
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5, delay: 4 }}
     >
       {NavbarData.map((data) => {
         return (
@@ -34,7 +33,7 @@ const Navbar = ({ theme, toggleTheme }) => {
           </Links>
         );
       })}
-      <hr/>
+      <hr />
       <a href="https://github.com/charyyev2000" title="Github" target="_blank">
         <Github />
       </a>

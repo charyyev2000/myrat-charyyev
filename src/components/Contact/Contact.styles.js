@@ -101,15 +101,15 @@ export const Title = styled(motion.h1)`
   position: sticky;
   top: 0;
   right: 0;
+  width: 200%;
   display: inline-block;
   margin-bottom: 0;
   transform-origin: 0% 0%;
-  position: sticky;
-  top: 0;
-  left: 50px;
+  // left: 50px;
   z-index: -1;
   font-size: clamp(10rem, 12vw, 30rem);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px ${({ theme }) => theme.text};
   opacity: 0.7;
+  user-select: none;
 `;

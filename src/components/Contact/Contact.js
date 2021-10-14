@@ -29,9 +29,11 @@ const About = () => {
 
   return (
     <AboutContainer className="center" id="contact">
+      {/* <div style={{ position: "absolute" }}> */}
       <Title>Contact</Title>
+      {/* </div> */}
       <form action="" onSubmit={sendEmail}>
-        <label for="name">Name</label>
+        <label htmlFor="name">Name</label>
         <input
           required
           placeholder="What is your name?"
@@ -39,7 +41,7 @@ const About = () => {
           name="fullName"
           id="name"
         />
-        <label for="email">
+        <label htmlFor="email">
           Ema<span>ı</span>l
         </label>
         <input
@@ -49,7 +51,7 @@ const About = () => {
           name="email"
           id="email"
         />
-        <label for="phone_number">Phone Number</label>
+        <label htmlFor="phone_number">Phone Number</label>
         <input
           required
           placeholder="Your phone number"
@@ -57,7 +59,7 @@ const About = () => {
           name="phone"
           id="phone"
         />
-        <label for="message">Message</label>
+        <label htmlFor="message">Message</label>
         <textarea
           required
           cols="30"

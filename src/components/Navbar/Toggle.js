@@ -11,7 +11,7 @@ const Logo = css`
   transition: 0.2s;
 
   &:hover {
-    scale: 1.2;
+    scale: 1.1;
     transition: 0.2s;
   }
 `;

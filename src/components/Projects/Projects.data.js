@@ -5,7 +5,8 @@ export const ProjectsData = [
     content: "HTML",
     contentTwo: "CSS",
     contentThree: "JavaScript",
-    comment: "Google Maps clone made using mapbox.io API",
+    comment:
+      "Get real-time navigation and more in the Google-Maps-Clone. Stay on web. Use the app. Directions. Drive. Walk. Bike. Public transport",
     codePath: "https://github.com/charyyev2000/Personal-Project-4",
     livePath: "https://charyyev2000.github.io/Personal-Project-4/",
     langOne: [51.1, "#f1e05a", "Javascript"],

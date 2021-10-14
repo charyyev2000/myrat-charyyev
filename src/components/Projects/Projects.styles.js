@@ -16,38 +16,43 @@ export const ProjectsContainer = styled.section`
   // position: relative;
 `;
 
-export const Title = styled(motion.div)`
+export const Title = styled(motion.h1)`
   position: sticky;
   // position: absolute;
   top: 0;
-  left: 0;
-  // width: 200%;
+  left: -100px;
+  width: 100%;
   // text-align: left;
   font-weight: 900;
   font-size: clamp(10rem, 12vw, 30rem);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px ${({ theme }) => theme.text};
-  top: 0;
   transform: translateX(-100px);
   color: ${({ theme }) => theme.text};
   pointer-events: none;
+  user-select: none;
   // opacity: 0.5;
 
   @media only screen and (max-width: 1000px) {
     transform: translateX(-70px);
   }
 
-  span {
+  .span {
     position: relative;
     transition: all 0.3s ease;
+    display: inline;
     // background-color: red;
+    // color: red;
 
-    span::before {
-      content: "ȷ";
-      position: absolute;
-      color: black;
-      background-color: black;
-    }
+    // &::after {
+    //   content: "ȷ";
+    //   position: absolute;
+    //   display: flex;
+    //   // z-index: 2;
+    //   // color: ${({ theme }) => theme.text};
+    //   color: green;
+    //   // top: 0;
+    // }
 
     // &::before {
     //   content: "";
@@ -74,7 +79,8 @@ export const Title = styled(motion.div)`
 export const Container = styled(motion.div)`
   width: min(600px, 90vw);
   height: min(300px, 90vh);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  // box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   background: ${({ theme }) => theme.projectBg};
   color: ${({ theme }) => theme.projectText};
   position: relative;
@@ -83,7 +89,6 @@ export const Container = styled(motion.div)`
   overflow: hidden;
   transition: background 0.3s;
   // transition: color 0.3s;
-
   padding: 10px;
 
   @media screen and (max-width: 700px) {
@@ -146,7 +151,7 @@ export const LeftSection = styled(motion.div)`
   h1 {
     text-align: center;
     font-size: clamp(20px, 2.5vw, 25px);
-    margin: 10px 0;
+    // margin: 10px 0;
   }
 
   .stacks h3 {
@@ -170,7 +175,7 @@ export const LeftSection = styled(motion.div)`
   div {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
     // justify-content: space-between;
     // background: red;
 

@@ -20,6 +20,7 @@ export const BgText = styled(motion.h1)`
   font-size: clamp(5rem, 15vw, 15rem);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px ${({ theme }) => theme.text};
+  user-select: none;
 
   @media only screen and (max-width: 600px) {
     left: 20%;
@@ -64,7 +65,7 @@ export const HomeHeader = styled.div`
 
   .span {
     color: ${({ theme }) => theme.effect};
-    // display: inline-block;
+    display: inline-block;
   }
 
   div {
@@ -97,13 +98,14 @@ export const HomeHeader = styled.div`
     }
 
     .home_btn {
-      font-size: clamp(15px, 8vw, 15px);
+      font-size: clamp(15px, 8vw, 20px);
       font-weight: 500;
       border: 3px solid ${({ theme }) => theme.effect};
       white-space: nowrap;
       position: relative;
       padding: 5px 30px;
       // transform: translateY(20px);
+      margin-top: 10px;
       cursor: pointer;
       user-select: none;
       letter-spacing: 2px;

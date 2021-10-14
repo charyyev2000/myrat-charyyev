@@ -12,10 +12,10 @@ const Home = ({ handleScroll, offsetY }) => {
   return (
     <HomeContainer id="home">
       <BgText
-        initial={{ x: "-50vw", opacity: 0 }}
-        animate={{ x: 0, opacity: 0.3 }}
-        transition={{ delay: 0.5, duration: 3, type: "tween" }}
-        style={{ transform: `translateY(${offsetY * 3}px)` }}
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 0.3 }}
+        transition={{ duration: 1, type: "tween" }}
+        style={{ transform: `translateY(${offsetY * 0.5}px)` }}
       >
         <h1>Welcome</h1>
       </BgText>
@@ -43,7 +43,7 @@ const Home = ({ handleScroll, offsetY }) => {
               initial={{ opacity: 0, y: "-50vw" }}
               animate={{ opacity: 1, y: 0 }}
               transition={{
-                delay: 4,
+                delay: 5,
                 type: "spring",
                 // stiffness: 300,
                 bounce: 0.5
