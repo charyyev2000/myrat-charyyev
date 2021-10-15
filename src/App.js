@@ -5,6 +5,7 @@ import Projects from "./components/Projects/Projects";
 import { GlobalStyle, darkTheme, lightTheme } from "./globalStyle";
 import { ThemeProvider } from "styled-components";
 import { useEffect, useState } from "react";
+import ReactLoading from "react-loading";
 
 function App() {
   // dark/light theme
@@ -35,6 +36,7 @@ function App() {
   return (
     <ThemeProvider theme={themeMode}>
       <GlobalStyle />
+      {/* <ReactLoading type={"bars"} color={"green"} height={100} width={100} /> */}
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Home offsetY={offsetY} handleScroll={handleScroll} />
       <Projects offsetY={offsetY} handleScroll={handleScroll} />
