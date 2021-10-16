@@ -41,14 +41,14 @@ const Home = ({ handleScroll, offsetY }) => {
             <br />
             Charyyev
             <motion.span
-              initial={{ opacity: 0, y: "-50vw" }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{
-                delay: 5,
-                type: "spring",
-                // stiffness: 300,
-                bounce: 0.5
-              }}
+              // initial={{ opacity: 0, y: "-50vw" }}
+              // animate={{ opacity: 1, y: 0 }}
+              // transition={{
+              //   delay: 5,
+              //   type: "spring",
+              //   // stiffness: 300,
+              //   bounce: 0.5
+              // }}
               className="span"
             >
               .

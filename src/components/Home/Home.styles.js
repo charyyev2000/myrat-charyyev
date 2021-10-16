@@ -65,7 +65,7 @@ export const HomeHeader = styled.div`
 
   .span {
     color: ${({ theme }) => theme.effect};
-    display: inline-block;
+    // display: inline-block;
   }
 
   div {
