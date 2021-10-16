@@ -29,6 +29,7 @@ const Home = ({ handleScroll, offsetY }) => {
               originX: 0,
               transition: { delay: 1, duration: 2 }
             }}
+            className="home-header"
             // transition={{
             //   delay: 0.3,
             //   duration: 2.5,
