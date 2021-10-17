@@ -37,6 +37,7 @@ export const ProjectContainer = styled(motion.div)`
   // overflow: hidden;
 
   @media screen and (max-width: 700px) {
+    width: 90%;
     display: flex;
     flex-direction: column;
   }

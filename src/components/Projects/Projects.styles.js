@@ -170,6 +170,10 @@ export const LeftSection = styled(motion.div)`
     font-style: italic;
     // margin: 10px;
     opacity: 0.7;
+
+    @media screen and (max-width: 700px) {
+      transform: translateY(-10px);
+    }
   }
 
   div {
@@ -205,6 +209,9 @@ export const LeftSection = styled(motion.div)`
     border-radius: 10px;
     width: 90px;
     height: min-content;
+
+    @media screen and (max-width: 700px) {
+    }
 
     @media screen and (max-width: 400px) {
       width: 100%;
