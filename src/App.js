@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import { GlobalStyle, darkTheme, lightTheme } from "./globalStyle";
 import { ThemeProvider } from "styled-components";
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import ReactLoading from "react-loading";
 import About from "./components/About/About";
 import useLocoScroll from "./components/hooks/useLocoScroll";

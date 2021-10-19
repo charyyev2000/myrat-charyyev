@@ -3,9 +3,8 @@ import styled, { css } from "styled-components";
 import { BsSun } from "react-icons/bs";
 import { BsMoon } from "react-icons/bs";
 
-const ToggleContainer = styled.div``;
 const Logo = css`
-  font-size: clamp(22px, 4vw, 35px);
+  font-size: clamp(22px, 3.4vw, 35px);
   color: ${({ theme }) => theme.icon};
   // margin: 10px 5px;
   transition: 0.2s;
@@ -13,6 +12,12 @@ const Logo = css`
   &:hover {
     scale: 1.1;
     transition: 0.2s;
+  }
+
+  @media only screen and (max-width: 700px) {
+    & {
+      margin-left: 4px;
+    }
   }
 `;
 

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavbarData } from "./Navbar.data";
 import { Links, NavbarContainer, Github, Linkedin } from "./Navbar.styles";
 import { Toggle } from "./Toggle";
@@ -13,6 +13,7 @@ const Navbar = ({ theme, toggleTheme }) => {
       {NavbarData.map((data) => {
         return (
           <Links
+            key={data.id}
             activeClass="active"
             to={data.id}
             // href={data.id}
@@ -34,13 +35,19 @@ const Navbar = ({ theme, toggleTheme }) => {
         );
       })}
       <hr />
-      <a href="https://github.com/charyyev2000" title="Github" target="_blank">
+      <a
+        href="https://github.com/charyyev2000"
+        title="Github"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Github />
       </a>
       <a
         href="https://linkedin.com/in/myrat-charyyev"
         title="LinkedIn"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <Linkedin />
       </a>

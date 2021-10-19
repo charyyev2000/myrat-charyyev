@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import LocomotiveScroll from "locomotive-scroll";
 // import "locomotive-scroll/src/styles";
 
@@ -8,7 +8,7 @@ export default function useLocoScroll(start) {
 
     const scrollEl = document.querySelector("#main");
 
-    const locaScroll = new LocomotiveScroll({
+    const locoScroll = new LocomotiveScroll({
       el: scrollEl,
       smooth: true,
       multiplier: 1,

@@ -60,7 +60,7 @@ const Project = ({ id, expander }) => {
         <div className="back-btn" onClick={expander}>
           <GrClose />
         </div>
-        <LeftSection>
+        <LeftSection key={data.id}>
           <Title>{data.header}</Title>
           <div className="stacks">
             <h3>TechStacks:</h3>

@@ -38,6 +38,7 @@ export const ProjectContainer = styled(motion.div)`
 
   @media screen and (max-width: 700px) {
     width: 90%;
+    height: 80%;
     display: flex;
     flex-direction: column;
   }
@@ -80,9 +81,9 @@ export const LeftSection = styled(motion.div)`
   justify-content: space-between;
   background: ${({ theme }) => theme.body};
 
-  @media screen and (max-width: 1000px) {
-    padding: 0 10px;
-  }
+  // @media screen and (max-width: 1000px) {
+  //   padding: 0 10px;
+  // }
 
   @media screen and (max-width: 700px) {
     height: 50%;
@@ -200,6 +201,10 @@ export const LeftSection = styled(motion.div)`
     height: min-content;
     user-select: none;
 
+    @media screen and (max-width: 700px) {
+      margin-bottom: 5px;
+    }
+
     span {
       width: 7px;
       height: 7px;
@@ -227,5 +232,9 @@ export const RightSection = styled.div`
     height: 100%;
     object-fit: cover;
     object-position: center center;
+  }
+
+  @media screen and (max-width: 700px) {
+    margin-top: 5px;
   }
 `;

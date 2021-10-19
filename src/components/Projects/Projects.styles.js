@@ -78,7 +78,9 @@ export const Title = styled(motion.h1)`
 
 export const Container = styled(motion.div)`
   width: min(600px, 90vw);
-  height: min(300px, 90vh);
+  // width: clamp(300px, 90vw, 600px)
+  // height: min(300px, 90vh);
+  height: 300px;
   // box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   background: ${({ theme }) => theme.projectBg};

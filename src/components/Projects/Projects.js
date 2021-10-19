@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ProjectsData } from "./Projects.data";
 import { Container, LeftSection, RightSection, Title } from "./Projects.styles";
-import {
-  AnimatePresence,
-  AnimateSharedLayout,
-  useAnimation
-} from "framer-motion";
+import { AnimatePresence, AnimateSharedLayout } from "framer-motion";
 import Project from "./Project/Project";
 import { ProjectsContainer } from "./Projects.styles";
 // import useInView from "use-in-view";

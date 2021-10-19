@@ -45,8 +45,9 @@ export const NavbarContainer = styled(motion.aside)`
   }
 
   a {
-    margin: 0;
-    padding: 0;
+    // margin: 0;
+    // padding: 0;
+    line-height: 1;
   }
 
   @media only screen and (max-width: 700px) {
@@ -59,9 +60,17 @@ export const NavbarContainer = styled(motion.aside)`
     justify-content: center;
     flex-direction: row;
 
+    a {
+      margin: 0 3px;
+    }
+
     hr {
       display: none;
-      transform: rotate(90deg);
+      -ms-transform: rotateY(90deg);
+      -webkit-transform: rotateY(90deg);
+      -moz-transform: rotateY(90deg);
+      -o-transform: rotateY(90deg);
+      transform: rotateY(90deg);
       // width:2px;
       // height: 30px;
       // display:block;
@@ -78,6 +87,7 @@ export const NavbarContainer = styled(motion.aside)`
   hr {
     width: 30px;
     color: ${({ theme }) => theme.text};
+    transform: translateY(-3px);
   }
 `;
 

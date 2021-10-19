@@ -32,7 +32,7 @@ body {
 
 .center {
     // width: clamp(70%, 80vw,90%);
-    width:clamp(300px, 85vw, 1400px);
+    width:clamp(300px, 90vw, 1400px);
     // width: 1400px;
     // width: 90%;
     margin: 0 auto;

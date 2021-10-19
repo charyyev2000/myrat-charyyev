@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import {
   BgText,
   Container,
-  HomeBackgroundPic,
+  // HomeBackgroundPic,
   HomeContainer,
   HomeHeader
 } from "./Home.styles";
@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 import gsap from "gsap";
 import SplitText from "../hooks/SplitText/Split3.min.js";
 
-import HomeBackground from "./codingVector.png";
+// import HomeBackground from "./codingVector.png";
 
 const Home = ({ handleScroll, offsetY }) => {
   // splittext animation

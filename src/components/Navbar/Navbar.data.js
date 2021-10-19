@@ -1,7 +1,7 @@
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as AiTwotoneMail from "react-icons/ai";
-import React, { Component } from "react";
+// import * as AiTwotoneMail from "react-icons/ai";
+import React from "react";
 
 export const NavbarData = [
   {
