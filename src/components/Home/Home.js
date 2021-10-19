@@ -1,34 +1,66 @@
 import React, { useEffect } from "react";
-import { BgText, Container, HomeContainer, HomeHeader } from "./Home.styles";
+import {
+  BgText,
+  Container,
+  HomeBackgroundPic,
+  HomeContainer,
+  HomeHeader
+} from "./Home.styles";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
+import gsap from "gsap";
+import SplitText from "../hooks/SplitText/Split3.min.js";
+
+import HomeBackground from "./codingVector.png";
 
 const Home = ({ handleScroll, offsetY }) => {
+  // splittext animation
+  useEffect(() => {
+    const split = new SplitText(".home-header", {
+      type: "lines",
+      linesClass: "lineChildren"
+    });
+
+    const splitParent = new SplitText(".home-header", {
+      type: "lines",
+      linesClass: "lineParent"
+    });
+
+    gsap.to(split.lines, {
+      duration: 1,
+      y: 0,
+      opacity: 1.5,
+      stagger: 0.1,
+      ease: "power2"
+    });
+  }, []);
+
   // scroll animation
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <HomeContainer id="home">
+    <HomeContainer data-scroll-container>
+      {/* <HomeBackgroundPic /> */}
       <BgText
-        initial={{ y: -100, opacity: 0 }}
-        animate={{ y: 0, opacity: 0.3 }}
-        transition={{ duration: 1, type: "tween" }}
-        style={{ transform: `translateY(${offsetY * 0.5}px)` }}
+      // initial={{ y: -100, opacity: 0 }}
+      // animate={{ y: 0, opacity: 0.3 }}
+      // transition={{ duration: 1, type: "tween" }}
+      // style={{ transform: `translateY(${offsetY * 0.5}px)` }}
       >
         <h1>Welcome</h1>
       </BgText>
       <Container className="center">
         <HomeHeader>
           <motion.h1
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{
-              opacity: 1,
-              scale: 1,
-              originX: 0,
-              transition: { delay: 1, duration: 2 }
-            }}
+            // initial={{ opacity: 0, scale: 0 }}
+            // animate={{
+            //   opacity: 1,
+            //   scale: 1,
+            //   originX: 0,
+            //   transition: { delay: 1, duration: 2 }
+            // }}
             className="home-header"
             // transition={{
             //   delay: 0.3,
@@ -41,36 +73,21 @@ const Home = ({ handleScroll, offsetY }) => {
             <br />
             Charyyev
             <motion.span
-              // initial={{ opacity: 0, y: "-50vw" }}
-              // animate={{ opacity: 1, y: 0 }}
-              // transition={{
-              //   delay: 5,
-              //   type: "spring",
-              //   // stiffness: 300,
-              //   bounce: 0.5
-              // }}
+              initial={{ opacity: 0, y: "-50vw" }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                delay: 1,
+                type: "spring",
+                // stiffness: 300,
+                bounce: 0.5
+              }}
               className="span"
             >
               .
             </motion.span>
           </motion.h1>
           <div>
-            <motion.h2
-              initial={{
-                opacity: 0,
-                y: "-100px"
-              }}
-              animate={{
-                opacity: 1,
-                y: 0,
-                transition: {
-                  delay: 3.5,
-                  duration: 0.5
-                }
-              }}
-            >
-              Front-End Developer
-            </motion.h2>
+            <motion.h2 className="home-header2">Front-End Developer</motion.h2>
             <Link
               // initial={{ x: "-50vw", opacity: 0 }}
               // animate={{ x: 0, opacity: 1 }}
@@ -85,16 +102,9 @@ const Home = ({ handleScroll, offsetY }) => {
               isDynamic={true}
               ignoreCancelEvents={false}
               spyThrottle={100}
-              // className="home_btn"
+              className="home_btn"
             >
-              <motion.div
-                className="home_btn"
-                initial={{ y: -100, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 2, duration: 1, type: "tween" }}
-              >
-                Learn More
-              </motion.div>
+              Learn More
             </Link>
           </div>
         </HomeHeader>

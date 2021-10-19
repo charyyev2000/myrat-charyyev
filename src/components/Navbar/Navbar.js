@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { NavbarData } from "./Navbar.data";
 import { Links, NavbarContainer, Github, Linkedin } from "./Navbar.styles";
 import { Toggle } from "./Toggle";
@@ -6,9 +6,9 @@ import { Toggle } from "./Toggle";
 const Navbar = ({ theme, toggleTheme }) => {
   return (
     <NavbarContainer
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5, delay: 4 }}
+    // initial={{ opacity: 0 }}
+    // animate={{ opacity: 1 }}
+    // transition={{ duration: 0.5, delay: 4 }}
     >
       {NavbarData.map((data) => {
         return (

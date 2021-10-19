@@ -4,11 +4,14 @@ import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import { GlobalStyle, darkTheme, lightTheme } from "./globalStyle";
 import { ThemeProvider } from "styled-components";
-import { useEffect, useState } from "react";
+import React, { Component, useEffect, useState } from "react";
 import ReactLoading from "react-loading";
 import About from "./components/About/About";
+import useLocoScroll from "./components/hooks/useLocoScroll";
 
 function App() {
+  useLocoScroll();
+
   // dark/light theme
   const [theme, setTheme] = useState("dark");
   // scroll animation
@@ -35,15 +38,17 @@ function App() {
   const themeMode = theme === "light" ? lightTheme : darkTheme;
 
   return (
-    <ThemeProvider theme={themeMode}>
-      <GlobalStyle />
-      {/* <ReactLoading type={"bars"} color={"green"} height={100} width={100} /> */}
-      <Navbar theme={theme} toggleTheme={toggleTheme} />
-      <Home offsetY={offsetY} handleScroll={handleScroll} />
-      {/* <About /> */}
-      <Projects offsetY={offsetY} handleScroll={handleScroll} />
-      <Contact />
-    </ThemeProvider>
+    <div id="main">
+      <ThemeProvider theme={themeMode}>
+        <GlobalStyle />
+        {/* <ReactLoading type={"bars"} color={"green"} height={100} width={100} /> */}
+        <Navbar theme={theme} toggleTheme={toggleTheme} />
+        <Home offsetY={offsetY} handleScroll={handleScroll} />
+        {/* <About /> */}
+        <Projects offsetY={offsetY} handleScroll={handleScroll} />
+        <Contact />
+      </ThemeProvider>
+    </div>
   );
 }
 

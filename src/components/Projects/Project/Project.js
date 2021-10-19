@@ -190,6 +190,7 @@ const Project = ({ id, expander }) => {
                 key={index}
               >
                 <img
+                  alt={item.id}
                   src={
                     process.env.PUBLIC_URL +
                     `/images/${data.id}/${index + 1}.jpg`

@@ -44,7 +44,7 @@ const Projects = ({ offsetY, handleScroll }) => {
   // }, [controls, inView]);
 
   return (
-    <AnimateSharedLayout type="crossfade">
+    <AnimateSharedLayout type="crossfade" data-scroll-container>
       <ProjectsContainer className="center" id="projects">
         <Title
           className="title"
@@ -103,6 +103,7 @@ const Projects = ({ offsetY, handleScroll }) => {
               </LeftSection>
               <RightSection>
                 <img
+                  alt={item.id}
                   src={process.env.PUBLIC_URL + `/images/${item.id}/1.jpg`}
                 />
               </RightSection>

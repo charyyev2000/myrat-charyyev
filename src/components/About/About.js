@@ -9,7 +9,7 @@ import {
 
 const About = () => {
   return (
-    <AboutContainer className="center">
+    <AboutContainer className="center" data-scroll-container>
       <Title>About Me</Title>
       <div>
         <LeftSection>

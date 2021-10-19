@@ -28,7 +28,7 @@ const About = () => {
   };
 
   return (
-    <AboutContainer className="center" id="contact">
+    <AboutContainer className="center" id="contact" data-scroll-container>
       {/* <div style={{ position: "absolute" }}> */}
       <Title>Contact</Title>
       {/* </div> */}

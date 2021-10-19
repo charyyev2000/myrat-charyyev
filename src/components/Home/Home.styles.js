@@ -1,5 +1,15 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
+import HomeBackground from "./codingVector.png";
+
+// export const HomeBackgroundPic = styled.div`
+//   width: 100%;
+//   height: 100px;
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   background-image: url(${HomeBackground});
+// `;
 
 export const HomeContainer = styled.section`
   position: relative;
@@ -21,6 +31,11 @@ export const BgText = styled(motion.h1)`
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px ${({ theme }) => theme.text};
   user-select: none;
+
+  // background-image: url(${HomeBackground});
+  // background-repeat: no-repeat;
+  // background-size: contain;
+  // float: right;
 
   @media only screen and (max-width: 600px) {
     left: 20%;
@@ -55,17 +70,28 @@ export const HomeHeader = styled.div`
   width: clamp(95vw, 1000px, 95vw);
   letter-spacing: 4px;
 
+  .lineParent {
+    overflow: hidden;
+  }
+  .lineChildren {
+    transform: translate(0, 500px);
+  }
+
   h1 {
-    font-size: clamp(4rem, 15vw, 10rem);
+    font-size: clamp(4rem, 15vw, 12rem);
     // font-size: 10rem;
     font-family: "Montserrat", sans-serif;
     transition: color 0.3s ease;
     margin-bottom: 10px;
+    // position: relative;
   }
 
   .span {
     color: ${({ theme }) => theme.effect};
-    // display: inline-block;
+    display: inline-block;
+    // transform: translateX(-20px);
+    margin-left: -10px;
+    z-index: 5;
   }
 
   div {
@@ -94,6 +120,7 @@ export const HomeHeader = styled.div`
       // }
       @media only screen and (max-width: 450px) {
         white-space: unset;
+        // margin-top: 10px;
       }
     }
 
@@ -140,10 +167,11 @@ export const HomeHeader = styled.div`
 
     @media only screen and (max-width: 1100px) {
       display: grid;
-      margin-top: 20px;
 
       .home_btn {
-        display: inline-block;
+        // display: inline;
+        margin-top: 40px;
+        width: min-content;
       }
     }
     @media only screen and (max-width: 1100px) {
