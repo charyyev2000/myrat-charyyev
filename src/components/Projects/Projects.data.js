@@ -2,9 +2,9 @@ export const ProjectsData = [
   {
     id: 1,
     header: "Google Maps",
-    content: "HTML",
-    contentTwo: "CSS",
-    contentThree: "JavaScript",
+    content: ["html", "https://www.w3schools.com/html/"],
+    contentTwo: ["css", "https://www.w3schools.com/css/"],
+    contentThree: ["javascript", "https://www.javascript.com/"],
     comment:
       "Get real-time navigation and more in the Google-Maps-Clone. Stay on web. Use the app. Directions. Drive. Walk. Bike. Public transport",
     codePath: "https://github.com/charyyev2000/Personal-Project-4",
@@ -15,10 +15,10 @@ export const ProjectsData = [
   {
     id: 2,
     header: "Weather-app",
-    content: "React",
-    contentTwo: "Redux",
-    contentThree: "Dark Sky API",
-    contentFour: "Bootstrap",
+    content: ["react", "https://reactjs.org/"],
+    contentTwo: ["redux", "https://redux.js.org/"],
+    contentThree: ["darkskyapi", "https://blog.darksky.net/"],
+    contentFour: ["bootstrap", "https://getbootstrap.com/"],
     comment:
       "A simple weather application that displays the current weather, daily forecasts, and hourly forecasts based on geolocation or search. ",
     codePath: "https://github.com/charyyev2000/barometric-weather-app",
@@ -29,10 +29,13 @@ export const ProjectsData = [
   {
     id: 3,
     header: "Crypto Currency App",
-    content: "React",
-    contentTwo: "React class components",
-    contentThree: "React Axios",
-    contentFour: "CSS",
+    content: ["react", "https://reactjs.org/"],
+    contentTwo: [
+      "react-components",
+      "https://reactjs.org/docs/react-component.html"
+    ],
+    contentThree: ["axios", "https://axios-http.com/docs/intro"],
+    contentFour: ["css", "https://www.w3schools.com/css/"],
     comment: "Built using React class components and styled with CSS. ",
     codePath: "https://github.com/charyyev2000/Cryptocurrency",
     livePath: "https://charyyev2000.github.io/Cryptocurrency/",
@@ -43,9 +46,9 @@ export const ProjectsData = [
   {
     id: 4,
     header: "Website Design",
-    content: "HTML",
-    contentTwo: "CSS",
-    contentThree: "JavaScript",
+    content: ["html", "https://www.w3schools.com/html/"],
+    contentTwo: ["css", "https://www.w3schools.com/css/"],
+    contentThree: ["javascript", "https://www.javascript.com/"],
     comment: "Completely Responsive, SVG, UI Website Design",
     codePath: "https://github.com/charyyev2000/Personal-Project-3",
     livePath: "https://charyyev2000.github.io/Personal-Project-3/",
@@ -56,11 +59,10 @@ export const ProjectsData = [
   {
     id: 5,
     header: "Shop-Online",
-    content: "MongoDB",
-    contentTwo: "Express Js",
-    contentThree: "React Js",
-    contentFour: "Node Js",
-    contentFive: "",
+    content: ["mongodb", "https://www.mongodb.com/"],
+    contentTwo: ["expressjs", "https://expressjs.com/"],
+    contentThree: ["react", "https://reactjs.org/"],
+    contentFour: ["nodejs", "https://nodejs.org/en/"],
     comment:
       "An E-commerce plarform made using React JS, Redux, Firebase(authentication)",
     codePath: "https://github.com/charyyev2000/Shop-Online",
@@ -73,9 +75,9 @@ export const ProjectsData = [
   {
     id: 6,
     header: "Admin Dashboard",
-    content: "React",
-    contentTwo: "Redux",
-    contentThree: "CSS",
+    content: ["react", "https://reactjs.org/"],
+    contentTwo: ["redux", "https://redux.js.org/"],
+    contentThree: ["css", "https://www.w3schools.com/css/"],
     comment: "Responsive Admin Dashboard with dark/light mode feature",
     codePath: "https://github.com/charyyev2000/Admin-Dashboard",
     livePath: "https://charyyev2000.github.io/Admin-Dashboard/",
@@ -86,9 +88,9 @@ export const ProjectsData = [
   {
     id: 7,
     header: "React-Quiz-App",
-    content: "React",
-    contentTwo: "TypeScript",
-    contentThree: "CSS",
+    content: ["react", "https://reactjs.org/"],
+    contentTwo: ["typescript", "https://www.typescriptlang.org/"],
+    contentThree: ["css", "https://www.w3schools.com/css/"],
     comment:
       "React-Quiz-App where you get random 10 questions and shows correct and incorrect answers.",
     codePath: "https://github.com/charyyev2000/React-Quiz-App",
@@ -100,9 +102,9 @@ export const ProjectsData = [
   {
     id: 8,
     header: "Shop-Online-Layout",
-    content: "HTML",
-    contentTwo: "CSS",
-    contentThree: "JavaScript",
+    content: ["html", "https://www.w3schools.com/html/"],
+    contentTwo: ["css", "https://www.w3schools.com/css/"],
+    contentThree: ["javascript", "https://www.javascript.com/"],
     comment: "Custom website design, implemented in HTML, CSS, JavaScript.",
     codePath: "https://github.com/charyyev2000/Online-Shop-Layout",
     livePath: "https://charyyev2000.github.io/Online-Shop-Layout/",

@@ -82,18 +82,43 @@ const Projects = ({ offsetY, handleScroll }) => {
                 <div className="stacks">
                   <h3>TechStacks:</h3>
                   <ul>
-                    <li>{item.content}</li>
-                    <li>{item.contentTwo}</li>
-                    {item.contentThree ? <li>{item.contentThree}</li> : ""}
-                    {item.contentFour ? <li>{item.contentFour}</li> : ""}
-                    {item.contentFive ? <li>{item.contentFive}</li> : ""}
+                    <li>
+                      <a href={item.content[1]}>#{item.content[0]}</a>
+                    </li>
+                    <li>
+                      <a href={item.contentTwo[1]}>#{item.contentTwo[0]}</a>
+                    </li>
+                    {item.contentThree ? (
+                      <li>
+                        <a href={item.contentThree[1]}>
+                          #{item.contentThree[0]}
+                        </a>
+                      </li>
+                    ) : (
+                      ""
+                    )}
+                    {item.contentFour ? (
+                      <li>
+                        <a href={item.contentFour[1]}>#{item.contentFour[0]}</a>
+                      </li>
+                    ) : (
+                      ""
+                    )}
+                    {item.contentFive ? (
+                      <li>
+                        <a href={item.contentFive[1]}>#{item.contentFive[0]}</a>
+                      </li>
+                    ) : (
+                      ""
+                    )}
                   </ul>
                 </div>
                 <div className="comment">
                   <p>
-                    {item.comment.length <= 50
+                    {item.comment.length <= 70
                       ? item.comment
-                      : `${item.comment.slice(0, 50)}...`}
+                      : `${item.comment.slice(0, 70)}...`}
+                    {/* {item.comment} */}
                   </p>
                 </div>
               </LeftSection>

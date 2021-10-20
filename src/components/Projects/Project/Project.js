@@ -65,11 +65,63 @@ const Project = ({ id, expander }) => {
           <div className="stacks">
             <h3>TechStacks:</h3>
             <ul>
-              <li>{data.content}</li>
-              <li>{data.contentTwo}</li>
-              {data.contentThree ? <li>{data.contentThree}</li> : ""}
-              {data.contentFour ? <li>{data.contentFour}</li> : ""}
-              {data.contentFive ? <li>{data.contentFive}</li> : ""}
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={data.content[1]}
+                >
+                  #{data.content[0]}
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={data.contentTwo[1]}
+                >
+                  #{data.contentTwo[0]}
+                </a>
+              </li>
+              {data.contentThree ? (
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={data.contentThree[1]}
+                  >
+                    #{data.contentThree[0]}
+                  </a>
+                </li>
+              ) : (
+                ""
+              )}
+              {data.contentFour ? (
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={data.contentFour[1]}
+                  >
+                    #{data.contentFour[0]}
+                  </a>
+                </li>
+              ) : (
+                ""
+              )}
+              {data.contentFive ? (
+                <li>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={data.contentFive[1]}
+                  >
+                    #{data.contentFive[0]}
+                  </a>
+                </li>
+              ) : (
+                ""
+              )}
             </ul>
           </div>
           <div className="comment">

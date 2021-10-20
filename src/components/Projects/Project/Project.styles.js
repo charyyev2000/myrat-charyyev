@@ -118,11 +118,20 @@ export const LeftSection = styled(motion.div)`
       pointer-events: none;
     }
 
-    li {
-      font-size: clamp(10px, 2vw, 20px);
-      margin-bottom: 5px;
-      user-select: none;
-      list-style: none;
+    ul {
+      li {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: clamp(10px, 2vw, 20px);
+        margin-bottom: 5px;
+        user-select: none;
+        list-style: none;
+
+        a {
+          color: blue;
+          // font-style: italic;
+        }
+      }
     }
   }
 
@@ -232,6 +241,7 @@ export const RightSection = styled.div`
     height: 100%;
     object-fit: cover;
     object-position: center center;
+    // border-radius: 15px;
   }
 
   @media screen and (max-width: 700px) {

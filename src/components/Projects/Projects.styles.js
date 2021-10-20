@@ -124,10 +124,9 @@ export const LeftSection = styled(motion.div)`
   height: 100%;
   border-radius: 10px 0 0 10px;
   position: relative;
-  // padding: 10px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  // position: relative;
 
   @media screen and (max-width: 700px) {
     height: 50%;
@@ -153,28 +152,40 @@ export const LeftSection = styled(motion.div)`
   h1 {
     text-align: center;
     font-size: clamp(20px, 2.5vw, 25px);
-    // margin: 10px 0;
+    margin-bottom: 15px;
   }
 
   .stacks h3 {
     font-size: clamp(15px, 1.8vw, 20px);
     font-weight: 500;
+    // margin-bottom: 5px;
   }
 
-  li {
-    font-size: clamp(10px, 1.5vw, 15px);
-    // margin: 5px 10px;
-    // padding: 10px 20px;
-    list-style: none;
+  ul {
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: clamp(10px, 1.5vw, 15px);
+      margin-bottom: 5px;
+      user-select: none;
+      list-style: none;
+
+      a {
+        color: blue;
+        // font-style: italic;
+      }
+    }
   }
+
   .comment p {
     font-size: clamp(10px, 2vw, 15px);
     font-style: italic;
-    // margin: 10px;
     opacity: 0.7;
+    position: absolute;
+    bottom: 0;
 
     @media screen and (max-width: 700px) {
-      transform: translateY(-10px);
+      transform: translateY(-5px);
     }
   }
 
@@ -231,7 +242,7 @@ export const RightSection = styled.div`
   width: 100%;
   height: 100%;
   box-shadow: 0 0px 10px black;
-  border-radius: 10px;
+  border-radius: 5px;
 
   img {
     width: 100%;
