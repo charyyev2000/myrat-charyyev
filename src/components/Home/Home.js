@@ -41,7 +41,7 @@ const Home = ({ handleScroll, offsetY }) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <HomeContainer data-scroll-container>
+    <HomeContainer id="home" data-scroll-container>
       {/* <HomeBackgroundPic /> */}
       <BgText
       // initial={{ y: -100, opacity: 0 }}
