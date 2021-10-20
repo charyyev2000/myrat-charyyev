@@ -52,7 +52,7 @@ export const lightTheme = {
   shadow: "255, 255, 255",
   effect: "yellow",
   projectText: "#aea3a4",
-  projectBg: "rgb(0, 0, 0)",
+  projectBg: "#1a1a1a",
   toggle: "linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
   content: "hsl(228, 28%, 20%)",
   hover: "hsl(228, 28%, 40%)",
