@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "150dec30cadaf3da87c1351feaccc63b",
+    "revision": "a63115f56258435bf4ae4dbecc2bdc84",
     "url": "/myrat-charyyev/index.html"
   },
   {
-    "revision": "2e05953f45e16bd9d031",
+    "revision": "13e185750c8560fd344c",
     "url": "/myrat-charyyev/static/css/main.814e1514.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myrat-charyyev/static/js/2.172f26c3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e05953f45e16bd9d031",
-    "url": "/myrat-charyyev/static/js/main.a4eab712.chunk.js"
+    "revision": "13e185750c8560fd344c",
+    "url": "/myrat-charyyev/static/js/main.f0ffb103.chunk.js"
   },
   {
     "revision": "7e377e2fa6e3460d75b0699e52d26b1a",
-    "url": "/myrat-charyyev/static/js/main.a4eab712.chunk.js.LICENSE.txt"
+    "url": "/myrat-charyyev/static/js/main.f0ffb103.chunk.js.LICENSE.txt"
   },
   {
     "revision": "5dbb08cb0b75472412fc",
