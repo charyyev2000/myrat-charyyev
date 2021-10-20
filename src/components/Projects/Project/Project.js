@@ -71,7 +71,8 @@ const Project = ({ id, expander }) => {
                   rel="noopener noreferrer"
                   href={data.content[1]}
                 >
-                  #{data.content[0]}
+                  <span style={{ fontStyle: "italic" }}>#</span>
+                  {data.content[0]}
                 </a>
               </li>
               <li>
@@ -80,7 +81,8 @@ const Project = ({ id, expander }) => {
                   rel="noopener noreferrer"
                   href={data.contentTwo[1]}
                 >
-                  #{data.contentTwo[0]}
+                  <span style={{ fontStyle: "italic" }}>#</span>
+                  {data.contentTwo[0]}
                 </a>
               </li>
               {data.contentThree ? (
@@ -90,7 +92,8 @@ const Project = ({ id, expander }) => {
                     rel="noopener noreferrer"
                     href={data.contentThree[1]}
                   >
-                    #{data.contentThree[0]}
+                    <span style={{ fontStyle: "italic" }}>#</span>
+                    {data.contentThree[0]}
                   </a>
                 </li>
               ) : (
@@ -103,7 +106,8 @@ const Project = ({ id, expander }) => {
                     rel="noopener noreferrer"
                     href={data.contentFour[1]}
                   >
-                    #{data.contentFour[0]}
+                    <span style={{ fontStyle: "italic" }}>#</span>
+                    {data.contentFour[0]}
                   </a>
                 </li>
               ) : (
@@ -116,7 +120,8 @@ const Project = ({ id, expander }) => {
                     rel="noopener noreferrer"
                     href={data.contentFive[1]}
                   >
-                    #{data.contentFive[0]}
+                    <span style={{ fontStyle: "italic" }}>#</span>
+                    {data.contentFive[0]}
                   </a>
                 </li>
               ) : (

@@ -175,7 +175,7 @@ export const LeftSection = styled(motion.div)`
       list-style: none;
 
       a {
-        color: blue;
+        color: ${({ theme }) => theme.tag};
         // font-style: italic;
       }
     }

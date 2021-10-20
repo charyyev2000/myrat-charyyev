@@ -83,15 +83,23 @@ const Projects = ({ offsetY, handleScroll }) => {
                   <h3>TechStacks:</h3>
                   <ul>
                     <li>
-                      <a href={item.content[1]}>#{item.content[0]}</a>
+                      <a href={item.content[1]}>
+                        <span style={{ fontStyle: "italic" }}>#</span>
+                        {item.content[0]}
+                      </a>
                     </li>
                     <li>
-                      <a href={item.contentTwo[1]}>#{item.contentTwo[0]}</a>
+                      <a href={item.contentTwo[1]}>
+                        {" "}
+                        <span style={{ fontStyle: "italic" }}>#</span>
+                        {item.contentTwo[0]}
+                      </a>
                     </li>
                     {item.contentThree ? (
                       <li>
                         <a href={item.contentThree[1]}>
-                          #{item.contentThree[0]}
+                          <span style={{ fontStyle: "italic" }}>#</span>
+                          {item.contentThree[0]}
                         </a>
                       </li>
                     ) : (
@@ -99,14 +107,22 @@ const Projects = ({ offsetY, handleScroll }) => {
                     )}
                     {item.contentFour ? (
                       <li>
-                        <a href={item.contentFour[1]}>#{item.contentFour[0]}</a>
+                        <a href={item.contentFour[1]}>
+                          {" "}
+                          <span style={{ fontStyle: "italic" }}>#</span>
+                          {item.contentFour[0]}
+                        </a>
                       </li>
                     ) : (
                       ""
                     )}
                     {item.contentFive ? (
                       <li>
-                        <a href={item.contentFive[1]}>#{item.contentFive[0]}</a>
+                        <a href={item.contentFive[1]}>
+                          {" "}
+                          <span style={{ fontStyle: "italic" }}>#</span>
+                          {item.contentFive[0]}
+                        </a>
                       </li>
                     ) : (
                       ""

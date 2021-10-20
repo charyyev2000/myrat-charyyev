@@ -58,7 +58,8 @@ export const lightTheme = {
   hover: "hsl(228, 28%, 40%)",
   icon: "#fff",
   navbarborder: "hsl(0,0%, 70%)",
-  iconColor: "#fff"
+  iconColor: "#fff",
+  tag: "lightgrey"
 };
 
 export const darkTheme = {
@@ -73,5 +74,6 @@ export const darkTheme = {
   content: "hsl(227, 47%, 96%)",
   hover: "hsl(226, 47%, 90%)",
   navbarborder: "hsl(0,0%, 50%)",
-  iconColor: "black"
+  iconColor: "black",
+  tag: "blue"
 };
