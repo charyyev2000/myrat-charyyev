@@ -153,6 +153,10 @@ export const LeftSection = styled(motion.div)`
     text-align: center;
     font-size: clamp(20px, 2.5vw, 25px);
     margin-bottom: 15px;
+
+    @media screen and (max-width: 700px) {
+      margin-bottom: 5px;
+    }
   }
 
   .stacks h3 {
