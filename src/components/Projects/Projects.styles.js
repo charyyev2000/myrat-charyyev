@@ -31,7 +31,7 @@ export const Title = styled(motion.h1)`
   color: ${({ theme }) => theme.text};
   pointer-events: none;
   user-select: none;
-  // opacity: 0.5;
+  opacity: 0.2;
 
   @media only screen and (max-width: 1000px) {
     transform: translateX(-70px);

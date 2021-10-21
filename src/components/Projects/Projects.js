@@ -21,6 +21,7 @@ const Projects = ({ offsetY, handleScroll }) => {
   const [layoutId, setlayoutId] = useState(false);
 
   const expander = (id) => {
+    // document.body.style.overflow = "hidden";
     if (modalOpen !== true) {
       setlayoutId(id);
       setModalOpen(true);

@@ -44,7 +44,7 @@ function App() {
         {/* <ReactLoading type={"bars"} color={"green"} height={100} width={100} /> */}
         <Navbar theme={theme} toggleTheme={toggleTheme} />
         <Home offsetY={offsetY} handleScroll={handleScroll} />
-        {/* <About /> */}
+        <About />
         <Projects offsetY={offsetY} handleScroll={handleScroll} />
         <Contact />
       </ThemeProvider>

@@ -110,6 +110,6 @@ export const Title = styled(motion.h1)`
   font-size: clamp(10rem, 12vw, 30rem);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px ${({ theme }) => theme.text};
-  opacity: 0.7;
+  opacity: 0.2;
   user-select: none;
 `;

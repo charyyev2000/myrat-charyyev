@@ -9,9 +9,9 @@ import {
 
 const About = () => {
   return (
-    <AboutContainer className="center" data-scroll-container>
+    <AboutContainer className="center" id="about" data-scroll-container>
       <Title>About Me</Title>
-      <div>
+      <div className="content">
         <LeftSection>
           <h2>Get to know me!</h2>
           <p>
@@ -25,6 +25,23 @@ const About = () => {
         </LeftSection>
         <RightSection>
           <h2>My Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SCSS</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Bootstrap</li>
+            <li>TypeScript</li>
+            <li>Node Js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>Figma</li>
+            <li>PhotoShop</li>
+            <li>Git</li>
+            <li>Github</li>
+          </ul>
         </RightSection>
       </div>
     </AboutContainer>

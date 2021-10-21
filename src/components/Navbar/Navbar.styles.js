@@ -87,7 +87,7 @@ export const NavbarContainer = styled(motion.aside)`
   hr {
     width: 30px;
     color: ${({ theme }) => theme.text};
-    transform: translateY(-3px);
+    // transform: translateY(-3px);
   }
 `;
 
