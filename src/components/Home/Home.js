@@ -93,7 +93,7 @@ const Home = ({ handleScroll, offsetY }) => {
               // animate={{ x: 0, opacity: 1 }}
               // transition={{ delay: 0.5, duration: 3, type: "tween" }}
               activeClass="active"
-              to="projects"
+              to="about"
               spy={true}
               smooth={true}
               hashSpy={true}

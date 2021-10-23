@@ -25,10 +25,10 @@ export const HomeContainer = styled.section`
     width: 800px;
     height: 800px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.05), transparent);
-    bottom: -50%;
+    top: 10%;
     right: -15%;
     border-radius: 50%;
-    z-index: 1;
+    z-index: -1;
 
     @media only screen and (max-width: 1200px) {
       width: 700px;
@@ -116,6 +116,7 @@ export const HomeHeader = styled.div`
     font-family: "Montserrat", sans-serif;
     transition: color 0.3s ease;
     margin-bottom: 10px;
+    user-select: none;
     // position: relative;
   }
 
@@ -144,6 +145,7 @@ export const HomeHeader = styled.div`
       transition: color 0.3s ease;
       // margin-right: 200px;
       white-space: nowrap;
+      user-select: none;
 
       // @media only screen and (max-width: 800px) {
       //   font-size: 5rem;
@@ -158,7 +160,8 @@ export const HomeHeader = styled.div`
     }
 
     .home_btn {
-      font-size: clamp(15px, 8vw, 20px);
+      // font-size: clamp(10px, 7vh, 20px);
+      font-size: min(3vw, 20px);
       font-weight: 500;
       border: 3px solid ${({ theme }) => theme.effect};
       white-space: nowrap;
@@ -169,6 +172,7 @@ export const HomeHeader = styled.div`
       cursor: pointer;
       user-select: none;
       letter-spacing: 2px;
+      z-index: 100;
       // color: ${({ theme }) => theme.body};
       // background: ${({ theme }) => theme.text};
       transition: all 0.3s ease;
