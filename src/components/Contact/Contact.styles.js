@@ -63,7 +63,8 @@ export const AboutContainer = styled.section`
     }
     textarea {
       padding: 10px;
-      font-size: clamp(15px, 5vw, 30px);
+      // font-size: clamp(15px, 5vw, 30px);
+      font-size: clamp(10px, 5vw, 20px);
       border: none;
       outline: none;
       background: none;
