@@ -134,8 +134,8 @@ const Project = ({ id, expander }) => {
           </div>
 
           <div className="languages">
-            <h2>Languages</h2>
-            <div className="progressBar">
+            <h2 style={{ marginBottom: "5px" }}>Languages</h2>
+            <div className="progressBar" style={{ marginBottom: "5px" }}>
               {data.langOne ? (
                 <span
                   style={{

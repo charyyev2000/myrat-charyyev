@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const AboutContainer = styled.section`
   background: ${({ theme }) => theme.body};
   max-width: 100vw;
+  transition: background 0.7s ease;
 
   h2 {
     font-size: clamp(15px, 3vw, 30px);
