@@ -18,6 +18,39 @@ export const HomeContainer = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   color: ${({ theme }) => theme.text};
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05), transparent);
+    bottom: -50%;
+    right: -15%;
+    border-radius: 50%;
+    z-index: 1;
+
+    @media only screen and (max-width: 1200px) {
+      width: 700px;
+      height: 700px;
+    }
+    @media only screen and (max-width: 1200px) {
+      width: 500px;
+      height: 500px;
+      bottom: -20%;
+      right: -10%;
+    }
+    @media only screen and (max-width: 500px) {
+      width: 400px;
+      height: 400px;
+      bottom: -10%;
+      right: -20%;
+    }
+    @media only screen and (max-width: 350px) {
+      width: 250px;
+      height: 250px;
+    }
+  }
 `;
 
 export const BgText = styled(motion.h1)`

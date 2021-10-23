@@ -89,6 +89,10 @@ export const AboutContainer = styled.section`
       transition: all 0.3s ease;
       margin-bottom: 70px;
 
+      @media only screen and (max-width: 450px) {
+        margin-bottom: 10px;
+      }
+
       &:hover {
         background: ${({ theme }) => theme.effect};
         color: ${({ theme }) => theme.body};

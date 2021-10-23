@@ -14,6 +14,36 @@ export const ProjectsContainer = styled.section`
   position: relative;
   // background: red;
   // position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), transparent);
+    top: 30%;
+    left: -20%;
+    border-radius: 50%;
+    z-index: -1;
+
+    @media only screen and (max-width: 1200px) {
+      width: 600px;
+      height: 600px;
+      top: 20%;
+      left: -20%;
+    }
+
+    @media only screen and (max-width: 900px) {
+      width: 500px;
+      height: 500px;
+    }
+    @media only screen and (max-width: 450px) {
+      width: 300px;
+      height: 300px;
+      top: 20%;
+      right: 0;
+    }
+  }
 `;
 
 export const Title = styled(motion.h1)`
