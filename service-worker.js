@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/myrat-charyyev/precache-manifest.03c678cd17de4d797a4d8f45016324c1.js"
+  "/myrat-charyyev/precache-manifest.480cd715612b3fbec178f45eff26def1.js"
 );
 
 self.addEventListener('message', (event) => {

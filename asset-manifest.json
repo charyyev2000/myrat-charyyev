@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/myrat-charyyev/static/css/main.814e1514.chunk.css",
-    "main.js": "/myrat-charyyev/static/js/main.2fc6dce8.chunk.js",
-    "main.js.map": "/myrat-charyyev/static/js/main.2fc6dce8.chunk.js.map",
+    "main.js": "/myrat-charyyev/static/js/main.25fb14df.chunk.js",
+    "main.js.map": "/myrat-charyyev/static/js/main.25fb14df.chunk.js.map",
     "runtime-main.js": "/myrat-charyyev/static/js/runtime-main.2f491d13.js",
     "runtime-main.js.map": "/myrat-charyyev/static/js/runtime-main.2f491d13.js.map",
-    "static/js/2.d9ce0ffe.chunk.js": "/myrat-charyyev/static/js/2.d9ce0ffe.chunk.js",
-    "static/js/2.d9ce0ffe.chunk.js.map": "/myrat-charyyev/static/js/2.d9ce0ffe.chunk.js.map",
+    "static/js/2.69058a49.chunk.js": "/myrat-charyyev/static/js/2.69058a49.chunk.js",
+    "static/js/2.69058a49.chunk.js.map": "/myrat-charyyev/static/js/2.69058a49.chunk.js.map",
     "index.html": "/myrat-charyyev/index.html",
-    "precache-manifest.03c678cd17de4d797a4d8f45016324c1.js": "/myrat-charyyev/precache-manifest.03c678cd17de4d797a4d8f45016324c1.js",
+    "precache-manifest.480cd715612b3fbec178f45eff26def1.js": "/myrat-charyyev/precache-manifest.480cd715612b3fbec178f45eff26def1.js",
     "service-worker.js": "/myrat-charyyev/service-worker.js",
     "static/css/main.814e1514.chunk.css.map": "/myrat-charyyev/static/css/main.814e1514.chunk.css.map",
-    "static/js/2.d9ce0ffe.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/2.d9ce0ffe.chunk.js.LICENSE.txt",
-    "static/js/main.2fc6dce8.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/main.2fc6dce8.chunk.js.LICENSE.txt",
+    "static/js/2.69058a49.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/2.69058a49.chunk.js.LICENSE.txt",
+    "static/js/main.25fb14df.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/main.25fb14df.chunk.js.LICENSE.txt",
     "static/media/codingVector.png": "/myrat-charyyev/static/media/codingVector.ef97bb46.png",
     "static/media/left-arrow.svg": "/myrat-charyyev/static/media/left-arrow.4da35bbb.svg",
     "static/media/right-arrow.svg": "/myrat-charyyev/static/media/right-arrow.64c224f4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2f491d13.js",
-    "static/js/2.d9ce0ffe.chunk.js",
+    "static/js/2.69058a49.chunk.js",
     "static/css/main.814e1514.chunk.css",
-    "static/js/main.2fc6dce8.chunk.js"
+    "static/js/main.25fb14df.chunk.js"
   ]
 }
