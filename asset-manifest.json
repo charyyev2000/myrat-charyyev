@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/myrat-charyyev/static/css/main.814e1514.chunk.css",
-    "main.js": "/myrat-charyyev/static/js/main.df031fb5.chunk.js",
-    "main.js.map": "/myrat-charyyev/static/js/main.df031fb5.chunk.js.map",
-    "runtime-main.js": "/myrat-charyyev/static/js/runtime-main.2f491d13.js",
-    "runtime-main.js.map": "/myrat-charyyev/static/js/runtime-main.2f491d13.js.map",
-    "static/js/2.8f80ad6a.chunk.js": "/myrat-charyyev/static/js/2.8f80ad6a.chunk.js",
-    "static/js/2.8f80ad6a.chunk.js.map": "/myrat-charyyev/static/js/2.8f80ad6a.chunk.js.map",
+    "main.css": "/myrat-charyyev/static/css/main.21cc7a1b.chunk.css",
+    "main.js": "/myrat-charyyev/static/js/main.617333db.chunk.js",
+    "main.js.map": "/myrat-charyyev/static/js/main.617333db.chunk.js.map",
+    "runtime-main.js": "/myrat-charyyev/static/js/runtime-main.a987952c.js",
+    "runtime-main.js.map": "/myrat-charyyev/static/js/runtime-main.a987952c.js.map",
+    "static/js/2.696e88a1.chunk.js": "/myrat-charyyev/static/js/2.696e88a1.chunk.js",
+    "static/js/2.696e88a1.chunk.js.map": "/myrat-charyyev/static/js/2.696e88a1.chunk.js.map",
     "index.html": "/myrat-charyyev/index.html",
-    "precache-manifest.e692593db7010c85062f725e7a175109.js": "/myrat-charyyev/precache-manifest.e692593db7010c85062f725e7a175109.js",
-    "service-worker.js": "/myrat-charyyev/service-worker.js",
-    "static/css/main.814e1514.chunk.css.map": "/myrat-charyyev/static/css/main.814e1514.chunk.css.map",
-    "static/js/2.8f80ad6a.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/2.8f80ad6a.chunk.js.LICENSE.txt",
-    "static/js/main.df031fb5.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/main.df031fb5.chunk.js.LICENSE.txt",
-    "static/media/codingVector.png": "/myrat-charyyev/static/media/codingVector.ef97bb46.png",
-    "static/media/left-arrow.svg": "/myrat-charyyev/static/media/left-arrow.4da35bbb.svg",
-    "static/media/right-arrow.svg": "/myrat-charyyev/static/media/right-arrow.64c224f4.svg"
+    "static/css/main.21cc7a1b.chunk.css.map": "/myrat-charyyev/static/css/main.21cc7a1b.chunk.css.map",
+    "static/js/2.696e88a1.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/2.696e88a1.chunk.js.LICENSE.txt",
+    "static/js/main.617333db.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/main.617333db.chunk.js.LICENSE.txt",
+    "static/media/codingVector.330fd30f.png": "/myrat-charyyev/static/media/codingVector.330fd30f.png",
+    "static/media/left-arrow.53878c51.svg": "/myrat-charyyev/static/media/left-arrow.53878c51.svg",
+    "static/media/right-arrow.8b8fb639.svg": "/myrat-charyyev/static/media/right-arrow.8b8fb639.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f491d13.js",
-    "static/js/2.8f80ad6a.chunk.js",
-    "static/css/main.814e1514.chunk.css",
-    "static/js/main.df031fb5.chunk.js"
+    "static/js/runtime-main.a987952c.js",
+    "static/js/2.696e88a1.chunk.js",
+    "static/css/main.21cc7a1b.chunk.css",
+    "static/js/main.617333db.chunk.js"
   ]
 }
