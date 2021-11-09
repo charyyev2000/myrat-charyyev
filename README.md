@@ -9,3 +9,4 @@ Here is the [link](https://charyyev2000.github.io/Music-App/)
 
 <h3>Light Mode</h3>
 
+![light](https://user-images.githubusercontent.com/83901431/140963831-f6bdaa87-16a4-4cd7-949d-d1c8609ebb79.jpg)
