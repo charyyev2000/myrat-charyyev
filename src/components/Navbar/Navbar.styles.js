@@ -8,10 +8,8 @@ import { AiFillGithub } from "react-icons/ai";
 
 const NavIcon = css`
   font-size: clamp(25px, 4vw, 40px);
-  // color: ${({ theme }) => theme.text};
   transition: 0.2s;
-  color: #000;
-  // margin: 5px;
+  color: ${({ theme }) => theme.circle};
 
   &:hover {
     scale: 1.1;

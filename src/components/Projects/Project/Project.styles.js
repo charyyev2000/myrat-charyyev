@@ -17,7 +17,7 @@ export const Title = styled(motion.h1)`
   width: 100%;
   font-size: clamp(20px, 3vw, 30px);
   user-select: none;
-  // white-space: nowrap;
+  color: ${({ theme }) => theme.effect};
 `;
 
 export const ProjectContainer = styled(motion.div)`
@@ -25,7 +25,7 @@ export const ProjectContainer = styled(motion.div)`
   left: 0;
   right: 0;
   z-index: 1;
-  background: ${({ theme }) => theme.body};
+  background: ${({ theme }) => theme.projectBg};
   position: relative;
   padding: 10px;
   width: clamp(300px, 70vw, 1100px);
@@ -79,7 +79,7 @@ export const LeftSection = styled(motion.div)`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: ${({ theme }) => theme.body};
+  background: ${({ theme }) => theme.projectBg};
 
   // @media screen and (max-width: 1000px) {
   //   padding: 0 10px;

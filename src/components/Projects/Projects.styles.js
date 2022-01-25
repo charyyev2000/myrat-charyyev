@@ -48,11 +48,9 @@ export const ProjectsContainer = styled.section`
 
 export const Title = styled(motion.h1)`
   position: sticky;
-  // position: absolute;
   top: 0;
   left: -100px;
   width: 100%;
-  // text-align: left;
   font-weight: 900;
   font-size: clamp(10rem, 12vw, 30rem);
   -webkit-text-fill-color: transparent;
@@ -60,6 +58,7 @@ export const Title = styled(motion.h1)`
   transform: translateX(-100px);
   color: ${({ theme }) => theme.text};
   pointer-events: none;
+  font-family: "Poppins", sans-serif;
   user-select: none;
   opacity: 0.2;
 
@@ -156,7 +155,6 @@ export const LeftSection = styled(motion.div)`
   position: relative;
   display: flex;
   flex-direction: column;
-  // position: relative;
 
   @media screen and (max-width: 700px) {
     height: 50%;
@@ -183,6 +181,7 @@ export const LeftSection = styled(motion.div)`
     text-align: center;
     font-size: clamp(20px, 2.5vw, 25px);
     margin-bottom: 15px;
+    color: ${({ theme }) => theme.effect};
 
     @media screen and (max-width: 700px) {
       margin-bottom: 5px;

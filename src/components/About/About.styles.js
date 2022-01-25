@@ -10,6 +10,7 @@ export const AboutContainer = styled.section`
   h2 {
     font-size: clamp(15px, 3vw, 30px);
     margin-bottom: 10px;
+    color: ${({ theme }) => theme.effect};
 
     @media screen and (max-width: 700px) {
       text-align: center;
@@ -50,7 +51,7 @@ export const RightSection = styled(motion.div)`
   color: ${({ theme }) => theme.text};
 
   h2 {
-    // font-size: 20px;
+    color: ${({ theme }) => theme.effect};
     user-select: none;
   }
 
@@ -89,11 +90,9 @@ export const RightSection = styled(motion.div)`
 
 export const Title = styled(motion.h1)`
   position: sticky;
-  // position: absolute;
   top: 0;
   left: -100px;
   width: 100%;
-  // text-align: left;
   font-weight: 900;
   font-size: clamp(10rem, 12vw, 30rem);
   -webkit-text-fill-color: transparent;
@@ -103,6 +102,7 @@ export const Title = styled(motion.h1)`
   pointer-events: none;
   user-select: none;
   opacity: 0.2;
+  font-family: "Poppins", sans-serif;
   white-space: nowrap;
 
   @media only screen and (max-width: 1000px) {

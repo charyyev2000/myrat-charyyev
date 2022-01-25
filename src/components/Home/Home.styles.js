@@ -19,16 +19,18 @@ export const HomeContainer = styled.section`
   background-size: cover;
   color: ${({ theme }) => theme.text};
 
-  &::after {
-    content: "";
+  .HomeCircle {
     position: absolute;
-    width: 800px;
-    height: 800px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05), transparent);
-    top: 10%;
-    right: -15%;
+    width: 700px;
+    height: 700px;
+    // background: linear-gradient(180deg, rgba(0, 0, 0, 0.05), transparent);
+    background: ${({ theme }) => theme.circle};
+    opacity: 0.5;
+    top: 8%;
+    right: -10%;
     border-radius: 50%;
     z-index: -1;
+    box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.1);
 
     @media only screen and (max-width: 1200px) {
       width: 700px;
@@ -55,20 +57,13 @@ export const HomeContainer = styled.section`
 
 export const BgText = styled(motion.h1)`
   position: absolute;
-  // left: clamp(10%, 30vw, 30% );
   left: 30%;
-  // top: clamp(7rem, 20vh, 15rem);
   opacity: 0.3;
-  // font-size: 15rem;
   font-size: clamp(5rem, 15vw, 15rem);
+  font-family: "Poppins", sans-serif;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px ${({ theme }) => theme.text};
   user-select: none;
-
-  // background-image: url(${HomeBackground});
-  // background-repeat: no-repeat;
-  // background-size: contain;
-  // float: right;
 
   @media only screen and (max-width: 600px) {
     left: 20%;

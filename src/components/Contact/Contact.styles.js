@@ -14,7 +14,6 @@ export const AboutContainer = styled.section`
     width: clamp(200px, 80vw, 800px);
     margin: 0 auto;
     text-align: left;
-    // padding-top: 100px;
     margin: 0 auto;
 
     label {
@@ -63,7 +62,6 @@ export const AboutContainer = styled.section`
     }
     textarea {
       padding: 10px;
-      // font-size: clamp(15px, 5vw, 30px);
       font-size: clamp(10px, 5vw, 20px);
       border: none;
       outline: none;
@@ -110,8 +108,8 @@ export const Title = styled(motion.h1)`
   display: inline-block;
   margin-bottom: 0;
   transform-origin: 0% 0%;
-  // left: 50px;
   z-index: -1;
+  font-family: "Poppins", sans-serif;
   font-size: clamp(10rem, 12vw, 30rem);
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px ${({ theme }) => theme.text};

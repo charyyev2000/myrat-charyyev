@@ -42,6 +42,7 @@ const Home = ({ handleScroll, offsetY }) => {
   }, []);
   return (
     <HomeContainer id="home" data-scroll-container>
+      <div className="HomeCircle"></div>
       {/* <HomeBackgroundPic /> */}
       <BgText
       // initial={{ y: -100, opacity: 0 }}
