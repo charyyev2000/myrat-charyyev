@@ -63,7 +63,7 @@ export const lightTheme = {
 
 export const darkTheme = {
   body: "rgb(255, 255, 255)",
-  circle: "#2C394B",
+  circle: "rgba(0, 0, 0, 0.1)",
   text: "rgba(0, 0, 0, 1)",
   shadow: "0, 0, 0",
   effect: "red",
