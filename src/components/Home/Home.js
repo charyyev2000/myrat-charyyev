@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import {
   BgText,
   Container,
@@ -14,12 +14,35 @@ import SplitText from "../hooks/SplitText/Split3.min.js";
 // import HomeBackground from "./codingVector.png";
 
 const Home = ({ handleScroll, offsetY }) => {
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const element = ref.current;
+    gsap.fromTo(
+      element.querySelector(".HomeCircle"),
+      {
+        opacity: 0,
+        scale: 0.2,
+        y: -20
+      },
+      {
+        opacity: 1,
+        scale: 1,
+        y: 0,
+        duration: 1
+      }
+    );
+  }, []);
   // splittext animation
   useEffect(() => {
-    const split = new SplitText(".home-header", {
-      type: "lines",
-      linesClass: "lineChildren"
-    });
+    const split = new SplitText(
+      ".home-header",
+      {
+        type: "lines",
+        linesClass: "lineChildren"
+      },
+      []
+    );
 
     const splitParent = new SplitText(".home-header", {
       type: "lines",
@@ -40,11 +63,13 @@ const Home = ({ handleScroll, offsetY }) => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   return (
     <HomeContainer id="home" data-scroll-container>
-      <div className="HomeCircle"></div>
+      <div className="HomeCircle" ref={ref}></div>
       {/* <HomeBackgroundPic /> */}
       <BgText
+      // ref={test}
       // initial={{ y: -100, opacity: 0 }}
       // animate={{ y: 0, opacity: 0.3 }}
       // transition={{ duration: 1, type: "tween" }}
@@ -55,20 +80,13 @@ const Home = ({ handleScroll, offsetY }) => {
       <Container className="center">
         <HomeHeader>
           <motion.h1
-            // initial={{ opacity: 0, scale: 0 }}
-            // animate={{
-            //   opacity: 1,
-            //   scale: 1,
-            //   originX: 0,
-            //   transition: { delay: 1, duration: 2 }
-            // }}
             className="home-header"
-            // transition={{
-            //   delay: 0.3,
-            //   duration: 2.5,
-            //   type: "spring",
-            //   stiffness: 120
-            // }}
+            transition={{
+              delay: 0.3,
+              duration: 2.5,
+              type: "spring",
+              stiffness: 120
+            }}
           >
             Myrat
             <br />

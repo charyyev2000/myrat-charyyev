@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AboutContainer, Title } from "./Contact.styles";
 import emailjs from "emailjs-com";
+import gsap from "gsap";
 
 const About = () => {
+  const test = useRef();
+
   const [result, setResult] = useState(false);
 
   const sendEmail = (e) => {
@@ -30,7 +33,7 @@ const About = () => {
   return (
     <AboutContainer className="center" id="contact" data-scroll-container>
       {/* <div style={{ position: "absolute" }}> */}
-      <Title>Contact</Title>
+      <Title ref={test}>Contact</Title>
       {/* </div> */}
       <form action="" onSubmit={sendEmail}>
         <label htmlFor="name">Name</label>
