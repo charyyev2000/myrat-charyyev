@@ -12,6 +12,11 @@ html{
   overflow-x: hidden;
   max-width: 100vw;
 
+  body {
+    // max-width: 100vw;
+    overflow-x: hidden;
+    height: 100%;
+  }
 
   @media only screen and (max-width: 600px) {
     overflow-x: hidden;
@@ -41,16 +46,12 @@ img {
 `;
 
 export const lightTheme = {
-  // body: "#2d2a2f",
   body: "#082032",
   circle: "#2C394B",
   text: "rgba(255, 255, 255, 1)",
   shadow: "255, 255, 255",
-  // effect: "yellow",
   effect: "#FF4C29",
-  // projectText: "#aea3a4",
   projectText: "#fff",
-  // projectBg: "#1a1a1a",
   projectBg: "#334756",
   toggle: "linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
   content: "hsl(228, 28%, 20%)",
@@ -58,7 +59,7 @@ export const lightTheme = {
   icon: "#fff",
   navbarborder: "hsl(0,0%, 70%)",
   iconColor: "#fff",
-  tag: "lightgrey"
+  tag: "lightgrey",
 };
 
 export const darkTheme = {
@@ -68,12 +69,11 @@ export const darkTheme = {
   shadow: "0, 0, 0",
   effect: "red",
   projectText: "#000",
-  // projectBg: "rgb(23, 23, 23)",
   projectBg: "#fff",
   toggle: "linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
   content: "hsl(227, 47%, 96%)",
   hover: "hsl(226, 47%, 90%)",
   navbarborder: "hsl(0,0%, 50%)",
   iconColor: "black",
-  tag: "blue"
+  tag: "blue",
 };

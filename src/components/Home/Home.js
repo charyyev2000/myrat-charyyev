@@ -4,7 +4,7 @@ import {
   Container,
   // HomeBackgroundPic,
   HomeContainer,
-  HomeHeader
+  HomeHeader,
 } from "./Home.styles";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
@@ -23,13 +23,13 @@ const Home = ({ handleScroll, offsetY }) => {
       {
         opacity: 0,
         scale: 0.2,
-        y: -20
+        y: -20,
       },
       {
         opacity: 1,
         scale: 1,
         y: 0,
-        duration: 1
+        duration: 1,
       }
     );
   }, []);
@@ -39,14 +39,14 @@ const Home = ({ handleScroll, offsetY }) => {
       ".home-header",
       {
         type: "lines",
-        linesClass: "lineChildren"
+        linesClass: "lineChildren",
       },
       []
     );
 
     const splitParent = new SplitText(".home-header", {
       type: "lines",
-      linesClass: "lineParent"
+      linesClass: "lineParent",
     });
 
     gsap.to(split.lines, {
@@ -54,7 +54,7 @@ const Home = ({ handleScroll, offsetY }) => {
       y: 0,
       opacity: 1.5,
       stagger: 0.1,
-      ease: "power2"
+      ease: "power2",
     });
   }, []);
 
@@ -85,7 +85,7 @@ const Home = ({ handleScroll, offsetY }) => {
               delay: 0.3,
               duration: 2.5,
               type: "spring",
-              stiffness: 120
+              stiffness: 120,
             }}
           >
             Myrat
@@ -98,7 +98,7 @@ const Home = ({ handleScroll, offsetY }) => {
                 delay: 1,
                 type: "spring",
                 // stiffness: 300,
-                bounce: 0.5
+                bounce: 0.5,
               }}
               className="span"
             >

@@ -4,7 +4,7 @@ import {
   ProjectContainer,
   Title,
   LeftSection,
-  RightSection
+  RightSection,
 } from "./Project.styles.js";
 
 import { ProjectsData } from "../Projects.data";
@@ -140,7 +140,7 @@ const Project = ({ id, expander }) => {
                 <span
                   style={{
                     background: `${data.langOne[1]}`,
-                    width: `${data.langOne[0]}%`
+                    width: `${data.langOne[0]}%`,
                   }}
                 ></span>
               ) : (
@@ -150,7 +150,7 @@ const Project = ({ id, expander }) => {
                 <span
                   style={{
                     background: `${data.langTwo[1]}`,
-                    width: `${data.langTwo[0]}%`
+                    width: `${data.langTwo[0]}%`,
                   }}
                 ></span>
               ) : (
@@ -160,7 +160,7 @@ const Project = ({ id, expander }) => {
                 <span
                   style={{
                     background: `${data.langThree[1]}`,
-                    width: `${data.langThree[0]}%`
+                    width: `${data.langThree[0]}%`,
                   }}
                 ></span>
               ) : (
@@ -170,7 +170,7 @@ const Project = ({ id, expander }) => {
                 <span
                   style={{
                     background: `${data.langFour[1]}`,
-                    width: `${data.langFour[0]}%`
+                    width: `${data.langFour[0]}%`,
                   }}
                 ></span>
               ) : (

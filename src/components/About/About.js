@@ -4,7 +4,7 @@ import {
   Header,
   LeftSection,
   RightSection,
-  Title
+  Title,
 } from "./About.styles";
 
 const About = () => {

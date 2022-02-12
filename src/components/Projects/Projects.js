@@ -64,16 +64,16 @@ const Projects = ({ offsetY, handleScroll }) => {
               custom={i}
               variants={{
                 hidden: (i) => ({
-                  opacity: 0
+                  opacity: 0,
                   // y: -50 * i
                 }),
                 visible: (i) => ({
                   opacity: 1,
                   // y: 0,
                   transition: {
-                    delay: i * 0.5
-                  }
-                })
+                    delay: i * 0.5,
+                  },
+                }),
               }}
               initial="hidden"
               animate="visible"

@@ -8,6 +8,7 @@ import React, { useEffect, useState } from "react";
 import ReactLoading from "react-loading";
 import About from "./components/About/About";
 import useLocoScroll from "./components/hooks/useLocoScroll";
+import Experience from "./components/Experience/Experience";
 
 function App() {
   useLocoScroll();
@@ -45,6 +46,7 @@ function App() {
         <Navbar theme={theme} toggleTheme={toggleTheme} />
         <Home offsetY={offsetY} handleScroll={handleScroll} />
         <About />
+        <Experience />
         <Projects offsetY={offsetY} handleScroll={handleScroll} />
         <Contact />
       </ThemeProvider>
