@@ -27,6 +27,22 @@ export const AboutContainer = styled.section`
       width: 100%;
     }
   }
+
+  .leftSection {
+    width: 50%;
+    font-size: clamp(10px, 2.5vw, 20px);
+    padding: 20px;
+    user-select: none;
+    z-index: 2;
+    text-shadow: 0px 0px 100px black;
+    color: ${({ theme }) => theme.text};
+
+    @media screen and (max-width: 700px) {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  }
 `;
 
 export const LeftSection = styled(motion.div)`
@@ -89,7 +105,7 @@ export const RightSection = styled(motion.div)`
 `;
 
 export const Title = styled(motion.h1)`
-  position: sticky;
+  // position: sticky;
   top: 0;
   left: -100px;
   width: 100%;
