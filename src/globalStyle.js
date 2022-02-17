@@ -25,6 +25,10 @@ html{
  
 }
 
+#main {
+  overflow-x: hidden;
+}
+
 body {
     background: ${({ theme }) => theme.body};
     max-width: 100vw;
