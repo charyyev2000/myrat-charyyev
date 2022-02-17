@@ -9,20 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
 html{
   font-size: 62.5%;
-  overflow-x: hidden;
-  max-width: 100vw;
 
-  body {
-    // max-width: 100vw;
-    // overflow-x: hidden;
-    height: 100%;
-  }
-
-  @media only screen and (max-width: 600px) {
-    overflow-x: hidden;
-
-  }
- 
 }
 
 #main {
@@ -31,10 +18,10 @@ html{
 
 body {
     background: ${({ theme }) => theme.body};
-    max-width: 100vw;
     font-family: "Montserrat", sans-serif;
     transition: background .7s ease;
-    // overflow-x: hidden;
+    overflow-x: hidden;
+    width: 100vw;
 
 }
 
