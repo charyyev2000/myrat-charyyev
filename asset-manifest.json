@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myrat-charyyev/static/css/main.21cc7a1b.chunk.css",
-    "main.js": "/myrat-charyyev/static/js/main.481d7cc9.chunk.js",
-    "main.js.map": "/myrat-charyyev/static/js/main.481d7cc9.chunk.js.map",
+    "main.js": "/myrat-charyyev/static/js/main.f6c86649.chunk.js",
+    "main.js.map": "/myrat-charyyev/static/js/main.f6c86649.chunk.js.map",
     "runtime-main.js": "/myrat-charyyev/static/js/runtime-main.f2589b0e.js",
     "runtime-main.js.map": "/myrat-charyyev/static/js/runtime-main.f2589b0e.js.map",
     "static/js/2.8c0e36fc.chunk.js": "/myrat-charyyev/static/js/2.8c0e36fc.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/myrat-charyyev/index.html",
     "static/css/main.21cc7a1b.chunk.css.map": "/myrat-charyyev/static/css/main.21cc7a1b.chunk.css.map",
     "static/js/2.8c0e36fc.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/2.8c0e36fc.chunk.js.LICENSE.txt",
-    "static/js/main.481d7cc9.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/main.481d7cc9.chunk.js.LICENSE.txt",
+    "static/js/main.f6c86649.chunk.js.LICENSE.txt": "/myrat-charyyev/static/js/main.f6c86649.chunk.js.LICENSE.txt",
     "static/media/codingVector.330fd30f.png": "/myrat-charyyev/static/media/codingVector.330fd30f.png",
     "static/media/left-arrow.da21225b.svg": "/myrat-charyyev/static/media/left-arrow.da21225b.svg",
     "static/media/right-arrow.d19ce8f8.svg": "/myrat-charyyev/static/media/right-arrow.d19ce8f8.svg"
@@ -19,6 +19,6 @@
     "static/js/runtime-main.f2589b0e.js",
     "static/js/2.8c0e36fc.chunk.js",
     "static/css/main.21cc7a1b.chunk.css",
-    "static/js/main.481d7cc9.chunk.js"
+    "static/js/main.f6c86649.chunk.js"
   ]
 }
